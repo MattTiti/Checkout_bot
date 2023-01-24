@@ -37,8 +37,8 @@ async function fillShipping(page){
     await page.type('#checkout_email', 'mtiti3@vt.edu');
     await page.type('#checkout_shipping_address_first_name', 'Matthew');
     await page.type('#checkout_shipping_address_last_name', 'Titi');
-    await page.type('#checkout_shipping_address_address1', '1015 UNIVERSITY CITY BLVD');
-    await page.type('#checkout_shipping_address_address1', '333');
+    await page.type('#checkout_shipping_address_address1', '1011 UNIVERSITY CITY BLVD');
+    await page.type('#checkout_shipping_address_address1', '111');
     await page.type('#checkout_shipping_address_city', 'BLACKSBURG');
     await page.select('#checkout_shipping_address_province', 'VA');
     await page.type('#checkout_shipping_address_zip', '24061-0001');
@@ -46,12 +46,12 @@ async function fillShipping(page){
     await page.type('#checkout_shipping_address_phone', '0');
     await page.type('#checkout_shipping_address_phone', '1');
     await page.type('#checkout_shipping_address_phone', '4');
-    await page.type('#checkout_shipping_address_phone', '0');
-    await page.type('#checkout_shipping_address_phone', '0');
-    await page.type('#checkout_shipping_address_phone', '7');
-    await page.type('#checkout_shipping_address_phone', '2');
-    await page.type('#checkout_shipping_address_phone', '4');
-    await page.type('#checkout_shipping_address_phone', '6');
+    await page.type('#checkout_shipping_address_phone', '1');
+    await page.type('#checkout_shipping_address_phone', '1');
+    await page.type('#checkout_shipping_address_phone', '1');
+    await page.type('#checkout_shipping_address_phone', '1');
+    await page.type('#checkout_shipping_address_phone', '1');
+    await page.type('#checkout_shipping_address_phone', '1');
     await page.click("#continue_button", elem => elem.click());
 
 }
