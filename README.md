@@ -1,7 +1,7 @@
 
 # Checkout Bot
 
-Welcome to Checkout Bot, a script that automates the checkout process of exclusive clothing items. The script is built using Node.js and Puppeteer. It's current setup enables it to checkout items from the Telfar.net website. Checkout Bot is approximately 650% faster than a manual checkout and can checkout an item in under 15 seconds.
+Welcome to Checkout Bot, a script that automates the checkout process of exclusive clothing items. The script is built using Node.js and Puppeteer. It's current setup enables it to checkout items from the [Telfar](https://telfar.net/) website. Checkout Bot is approximately 650% faster than a manual checkout and can checkout an item in under 15 seconds.
 
 ## Installation
 
